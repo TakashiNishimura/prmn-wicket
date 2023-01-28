@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+	</head>
+	<body>
+	<span wicket:id="studentNumber"></span>
+	<span wicket:id="currentTimeLabel"></span>
+	<br>
+	<a wicket:id="updateCurrentTimeLink">link!!!!</a>
+
+	<form wicket:id="reportForm">
+		<input wicket:id="submitButton" type="submit"/>
+		<input wicket:id="reportTitle" type="text"/>
+		<input wicket:id="userPasswordTextField" type="password"/>
+	</form>
+
+	<div>
+		<ul wicket:id="reportListView">
+			<li wicket:id="reportId"></li>
+			<li wicket:id="reportAuthorName"></li>
+			<li wicket:id="reportTitle"></li>
+			<li wicket:id="reportDetails"></li>
+			<li wicket:id="reportPostedAt"></li>
+		</ul>
+	</div>
+	</body>
+</html>
